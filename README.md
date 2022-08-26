@@ -13,3 +13,6 @@ tf.disable_v2_behavior()
 ```
 ## tutorial
 The testing_allinput.py provide an example of testing interpretability of the neural network trained on Census dataset against all inputs.
+```
+python decision_rule_learn/DS_learn(census).py
+```
