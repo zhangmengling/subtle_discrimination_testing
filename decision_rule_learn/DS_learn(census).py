@@ -15,6 +15,11 @@ import random
 from random import choice
 import matplotlib.pyplot as plt
 
+import sys
+import os
+dir_mytest = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, dir_mytest)
+
 from tensorflow.python.platform import flags
 from data.census import census_data
 from data.bank import bank_data
